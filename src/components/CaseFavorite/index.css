@@ -1,0 +1,22 @@
+.case-favorite {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.case-favorite h3 {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.case-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.case-item:hover {
+  background-color: #ecf0f1;
+}

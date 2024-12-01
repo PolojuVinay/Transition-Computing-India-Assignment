@@ -1,0 +1,111 @@
+.customer-profile {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-info {
+  margin-bottom: 20px;
+}
+
+.customer-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.customer-info p {
+  font-size: 14px;
+  color: #34495e;
+  margin: 5px 0;
+}
+
+.loyalty-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.loyalty,
+.segment {
+  display: flex;
+  flex-direction: column;
+}
+
+.loyalty .label,
+.segment .label {
+  font-size: 12px;
+  color: #bdc3c7;
+}
+
+.loyalty span,
+.segment span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.engagement-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.engagement-info .lifetime-value,
+.engagement-info .purchase-propensity,
+.engagement-info .engagement-score {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.engagement-info .label {
+  font-size: 12px;
+  color: #bdc3c7;
+}
+
+.engagement-info span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons button {
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #16a085;
+}
+
+.action-buttons .assign-agent {
+  background-color: #3498db;
+}
+
+.action-buttons .assign-agent:hover {
+  background-color: #2980b9;
+}
+
+.action-buttons .add-widget {
+  background-color: #f39c12;
+}
+
+.action-buttons .add-widget:hover {
+  background-color: #e67e22;
+}
